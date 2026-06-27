@@ -219,12 +219,6 @@ export default function Dashboard({ onSelectOrder, onCreateNewOrder, refreshTrig
             Manage customization pipelines, send corporate proposals, track occasions, and process return requests.
           </p>
         </div>
-        <button
-          onClick={() => onCreateNewOrder()}
-          className="bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-semibold rounded-xl px-5 py-2.5 text-sm transition shadow-lg shadow-violet-600/20 cursor-pointer flex items-center justify-center gap-2"
-        >
-          <span>➕</span> Place Custom Order
-        </button>
       </div>
 
       {error && (

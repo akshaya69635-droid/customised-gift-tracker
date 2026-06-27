@@ -165,19 +165,21 @@ export default function App() {
               >
                 {user?.role === "client" ? "📋 My Orders" : "📊 Pipeline Board"}
               </button>
-              <button
-                onClick={() => {
-                  setActiveView("create");
-                  setSelectedOrderId(null);
-                }}
-                className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
-                  activeView === "create"
-                    ? "bg-slate-800 text-white shadow-inner"
-                    : "text-slate-400 hover:text-slate-200"
-                }`}
-              >
-                ✍️ Submit Request
-              </button>
+              {user?.role === "client" && (
+                <button
+                  onClick={() => {
+                    setActiveView("create");
+                    setSelectedOrderId(null);
+                  }}
+                  className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
+                    activeView === "create"
+                      ? "bg-slate-800 text-white shadow-inner"
+                      : "text-slate-400 hover:text-slate-200"
+                  }`}
+                >
+                  ✍️ Submit Request
+                </button>
+              )}
             </nav>
 
             <div className="flex items-center gap-3 border-l border-slate-800 pl-4">
