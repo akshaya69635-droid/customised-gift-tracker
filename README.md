@@ -2,6 +2,9 @@
 
 A premium, interactive workflow tracking system built for **Paper Plane**, a personalized gifting company. The application streamlines customization request submissions and tracks order stages from design receipt through to delivery.
 
+👉 **Live Website:** [https://frontend-three-puce-68.vercel.app](https://frontend-three-puce-68.vercel.app)
+👉 **API Docs:** [https://customised-gift-tracker-1.onrender.com/docs](https://customised-gift-tracker-1.onrender.com/docs)
+
 ## 📋 Table of Contents
 - [Project Description](#-project-description)
 - [Features](#-features)
