@@ -93,4 +93,6 @@ cd customised-gift-tracker
 ---
 
 ## 👥 Team Members
-*   **Aksha** — Lead Full-Stack Developer
+*   **Akshaya** - Testing & Deployment
+*   Harshith - Backend
+*   Jahwanth - Frontend
