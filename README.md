@@ -93,6 +93,6 @@ cd customised-gift-tracker
 ---
 
 ## 👥 Team Members
-*   **Akshaya** - Testing & Deployment
+*   Akshaya - Testing & Deployment
 *   Harshith - Backend
 *   Jahwanth - Frontend
